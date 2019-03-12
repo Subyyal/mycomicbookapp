@@ -11,17 +11,7 @@ namespace mycomicbookapp.Controllers
         public ActionResult Detail()
         {
 
-            if(DateTime.Today.DayOfWeek == DayOfWeek.Monday)
-            {
-
-
-                return Redirect("/");
-
-
-
-
-            }
-            return Content("I am Cortana");
+            return View();
 
 
 
